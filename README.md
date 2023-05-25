@@ -1,7 +1,30 @@
-# Hippocratic AI Coding Assignment
-Welcome to the [Hippocratic AI](https://www.hippocraticai.com) coding assignment
+# Hippocratic AI Coding Assignment - MCQ Taker
 
-## Instructions
+
+
+## Run the frontend locally
+
+1.Clone the repository
+2. Install packages
+```
+pip istall -r requirements.txt
+
+```
+3. Run the streamlit app locally.
+```
+streamlit run app.py
+
+```
+
+## Run the Testbench
+```
+python testbench.py
+
+```
+The default prompt type is Zero-Shot. To change the prompt type, change the argument {prompt_type} in hip_agent.py
+
+
+<!-- ## Instructions
 The attached code is a simple multiple-choice question taker.  We have included sample questions.  Your goal is to make this code "better"
 - Do not modify testbench.py
 - You may do anything you like inside hip_agent.py (or add more files) as long as the interface to testbench.py remains the same
@@ -45,4 +68,4 @@ Good question. We want to know the following
 - Can you be creative
 - Do you understand what it means to deliver value versus check a box
 - Can you *really* code
-- Can you surprise us
+- Can you surprise us -->
