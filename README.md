@@ -4,7 +4,10 @@
 
 ## Run the frontend locally
 
-1.Clone the repository
+1. Clone the repository
+```
+git clone https://github.com/nehamanjunath3/mcq_taker
+```
 2. Install packages
 ```
 pip istall -r requirements.txt
