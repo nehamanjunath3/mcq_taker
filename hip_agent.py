@@ -31,8 +31,7 @@ class HIPAgent:
         """
         # Set the OpenAI API key.
         openai.api_key = get_api_key()
-        # openai.api_key = "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" # (own-key)
-        # # openai.api_key = "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"
+       
 
         # Generate the prompt.
         prompt = self.prompter.prepare_prompt(question, answer_choices, prompt_type)
